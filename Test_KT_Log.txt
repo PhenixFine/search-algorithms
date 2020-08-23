@@ -1,0 +1,222 @@
+
+1 - Binary Search
+2 - Jump Search
+3 - Get Average Search steps for Binary versus Jump for the Array
+4 - Create a new random Array
+5 - export an Array of Numbers
+6 - import an Array of numbers
+7 - Options
+8 - Exit
+3
+Binary search average for 50000 searches is 14 steps.
+Jump search average for 50000 searches is 125 steps.
+
+1 - Binary Search
+2 - Jump Search
+3 - Get Average Search steps for Binary versus Jump for the Array
+4 - Create a new random Array
+5 - export an Array of Numbers
+6 - import an Array of numbers
+7 - Options
+8 - Exit
+7
+
+1. Print Search Steps: YES
+2. Print the numbers in the array before doing a Search: NO
+3. Jump Search with: Linear Forward
+4. Change the minimum range for Random Number
+       Current minimum: 0
+5. Change the max range for Random Number
+       Current max: 400000
+6. Return to Main Menu
+2
+
+1. Print Search Steps: YES
+2. Print the numbers in the array before doing a Search: YES
+3. Jump Search with: Linear Forward
+4. Change the minimum range for Random Number
+       Current minimum: 0
+5. Change the max range for Random Number
+       Current max: 400000
+6. Return to Main Menu
+6
+
+1 - Binary Search
+2 - Jump Search
+3 - Get Average Search steps for Binary versus Jump for the Array
+4 - Create a new random Array
+5 - export an Array of Numbers
+6 - import an Array of numbers
+7 - Options
+8 - Exit
+4
+Enter Array size:
+10
+
+1 - Binary Search
+2 - Jump Search
+3 - Get Average Search steps for Binary versus Jump for the Array
+4 - Create a new random Array
+5 - export an Array of Numbers
+6 - import an Array of numbers
+7 - Options
+8 - Exit
+2
+How many searches would you like to do?
+2
+[37903, 80259, 144758, 229897, 265311, 271358, 281436, 301357, 323010, 394827]
+What number would you like to find the Index of?
+281436
+The jump length is 3
+Step 1: Checking index 0, with a value of 37903.
+Step 2: Checking index 3, with a value of 229897.
+Step 3: Checking index 6, with a value of 281436.
+Found 281436 at index number: 6
+What number would you like to find the Index of?
+271358
+The jump length is 3
+Step 1: Checking index 0, with a value of 37903.
+Step 2: Checking index 3, with a value of 229897.
+Step 3: Checking index 6, with a value of 281436.
+Searching with linear forward: from previous index searched to last index searched
+Step 4: Checking index 4, with a value of 265311.
+Step 5: Checking index 5, with a value of 271358.
+Found 271358 at index number: 5
+Jump search average for 2 searches is 4 steps.
+
+1 - Binary Search
+2 - Jump Search
+3 - Get Average Search steps for Binary versus Jump for the Array
+4 - Create a new random Array
+5 - export an Array of Numbers
+6 - import an Array of numbers
+7 - Options
+8 - Exit
+7
+
+1. Print Search Steps: YES
+2. Print the numbers in the array before doing a Search: YES
+3. Jump Search with: Linear Forward
+4. Change the minimum range for Random Number
+       Current minimum: 0
+5. Change the max range for Random Number
+       Current max: 400000
+6. Return to Main Menu
+3
+
+1. Print Search Steps: YES
+2. Print the numbers in the array before doing a Search: YES
+3. Jump Search with: Linear Backwards
+4. Change the minimum range for Random Number
+       Current minimum: 0
+5. Change the max range for Random Number
+       Current max: 400000
+6. Return to Main Menu
+6
+
+1 - Binary Search
+2 - Jump Search
+3 - Get Average Search steps for Binary versus Jump for the Array
+4 - Create a new random Array
+5 - export an Array of Numbers
+6 - import an Array of numbers
+7 - Options
+8 - Exit
+2
+How many searches would you like to do?
+2
+[37903, 80259, 144758, 229897, 265311, 271358, 281436, 301357, 323010, 394827]
+What number would you like to find the Index of?
+271358
+The jump length is 3
+Step 1: Checking index 0, with a value of 37903.
+Step 2: Checking index 3, with a value of 229897.
+Step 3: Checking index 6, with a value of 281436.
+Searching with linear backwards: from last index searched to previous index searched
+Step 4: Checking index 5, with a value of 271358.
+Found 271358 at index number: 5
+What number would you like to find the Index of?
+265311
+The jump length is 3
+Step 1: Checking index 0, with a value of 37903.
+Step 2: Checking index 3, with a value of 229897.
+Step 3: Checking index 6, with a value of 281436.
+Searching with linear backwards: from last index searched to previous index searched
+Step 4: Checking index 5, with a value of 271358.
+Step 5: Checking index 4, with a value of 265311.
+Found 265311 at index number: 4
+Jump search average for 4 searches is 4 steps.
+
+1 - Binary Search
+2 - Jump Search
+3 - Get Average Search steps for Binary versus Jump for the Array
+4 - Create a new random Array
+5 - export an Array of Numbers
+6 - import an Array of numbers
+7 - Options
+8 - Exit
+1
+How many searches would you like to do?
+2
+[37903, 80259, 144758, 229897, 265311, 271358, 281436, 301357, 323010, 394827]
+What number would you like to find the Index of?
+265311
+Step 1: Checking index 4, with a value of 265311.
+Found 265311 at index number: 4
+What number would you like to find the Index of?
+271358
+Step 1: Checking index 4, with a value of 265311.
+Step 2: Checking index 7, with a value of 301357.
+Step 3: Checking index 5, with a value of 271358.
+Found 271358 at index number: 5
+Binary search average for 2 searches is 2 steps.
+
+1 - Binary Search
+2 - Jump Search
+3 - Get Average Search steps for Binary versus Jump for the Array
+4 - Create a new random Array
+5 - export an Array of Numbers
+6 - import an Array of numbers
+7 - Options
+8 - Exit
+6
+File name:
+numbers100K.txt
+Loaded numbers100K.txt
+
+1 - Binary Search
+2 - Jump Search
+3 - Get Average Search steps for Binary versus Jump for the Array
+4 - Create a new random Array
+5 - export an Array of Numbers
+6 - import an Array of numbers
+7 - Options
+8 - Exit
+3
+Binary search average for 100000 searches is 15 steps.
+Jump search average for 100000 searches is 173 steps.
+
+1 - Binary Search
+2 - Jump Search
+3 - Get Average Search steps for Binary versus Jump for the Array
+4 - Create a new random Array
+5 - export an Array of Numbers
+6 - import an Array of numbers
+7 - Options
+8 - Exit
+5
+File name:
+test.txt
+The array of numbers have been saved to the file test.txt
+
+1 - Binary Search
+2 - Jump Search
+3 - Get Average Search steps for Binary versus Jump for the Array
+4 - Create a new random Array
+5 - export an Array of Numbers
+6 - import an Array of numbers
+7 - Options
+8 - Exit
+8
+
+Process finished with exit code 0
