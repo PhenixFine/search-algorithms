@@ -25,8 +25,8 @@ fun main() {
 
     while (command != 8) {
         when (command) {
-            1 -> search(BINARY_SEARCH::find, BINARY_SEARCH::average)
-            2 -> search(JUMP_SEARCH::find, JUMP_SEARCH::average)
+            1 -> search(BINARY_SEARCH)
+            2 -> search(JUMP_SEARCH)
             3 -> average()
             4 -> newArray()
             5 -> export()
@@ -48,19 +48,19 @@ private fun menu(): String {
             "8 - Exit")
 }
 
-private fun search(searchType: (Int, Boolean) -> Int, average: () -> Unit) {
+private fun search(searchObject: Search) {
     val searches = getNum("How many searches would you like to do?").absoluteValue
 
     if (PRINT_ARRAY) println(NUMBERS.toList())
 
     repeat(searches) {
         val find = getNum("What number would you like to find the Index of?")
-        val found = searchType(find, PRINT_SEARCH)
+        val found = searchObject.find(find, PRINT_SEARCH)
 
         println(if (found == -1) "The number is not in the array." else "Found $find at index number: $found")
     }
 
-    average()
+    searchObject.average()
 }
 
 private fun average() {
