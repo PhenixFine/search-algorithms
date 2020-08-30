@@ -1,3 +1,5 @@
+package search
+
 class BinarySearch(numbers: Array<Int>) : Search(numbers) {
     private var left = 0
     private var right = lastIndex
@@ -10,8 +12,7 @@ class BinarySearch(numbers: Array<Int>) : Search(numbers) {
         }
     }
 
-    override fun reset() {
-        super.reset()
+    private fun reset() {
         if (right != lastIndex) right = lastIndex
         if (left != 0) left = 0
     }
