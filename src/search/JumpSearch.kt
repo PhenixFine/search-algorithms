@@ -1,3 +1,5 @@
+package search
+
 class JumpSearch(numbers: Array<Int>) : Search(numbers) {
     private var currentRight = 0
     private var prevRight = 0
@@ -16,8 +18,7 @@ class JumpSearch(numbers: Array<Int>) : Search(numbers) {
         }
     }
 
-    override fun reset() {
-        super.reset()
+    private fun reset() {
         if (currentRight != 0) currentRight = 0
         if (prevRight != 0) prevRight = 0
         jump = Math.sqrt((lastIndex + 1).toDouble()).toInt()
@@ -41,8 +42,9 @@ class JumpSearch(numbers: Array<Int>) : Search(numbers) {
             }
         }
 
-        if (numbers[currentRight] == find) returnNum = currentRight else if (prevRight >= currentRight - 1) returnNum =
-            -1
+        if (numbers[currentRight] == find) returnNum = currentRight else if (prevRight >= currentRight - 1) {
+            returnNum = -1
+        }
     }
 
     private fun checkBlock() {
