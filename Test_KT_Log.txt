@@ -1,19 +1,36 @@
+Importing File numbers50K.dat to an array...
+The file numbers50K.dat has been imported. Time taken: 00 min. 00 sec. 847 ms. 420400 ns.
 
 1 - Binary Search
 2 - Jump Search
-3 - Get Average Search steps for Binary versus Jump for the Array
+3 - Get Average steps for Binary and Jump searches of the Array
 4 - Create a new random Array
 5 - export an Array of Numbers
 6 - import an Array of numbers
 7 - Options
 8 - Exit
 3
-Binary search average for 50000 searches is 14 steps.
-Jump search average for 50000 searches is 125 steps.
+Finding Averages...
+Binary search average for 50,000 searches is 14 steps. Time taken: 00 min. 00 sec. 032 ms. 570500 ns.
+Jump search average for 50,000 searches is 125 steps. Time taken: 00 min. 00 sec. 095 ms. 17900 ns.
 
 1 - Binary Search
 2 - Jump Search
-3 - Get Average Search steps for Binary versus Jump for the Array
+3 - Get Average steps for Binary and Jump searches of the Array
+4 - Create a new random Array
+5 - export an Array of Numbers
+6 - import an Array of numbers
+7 - Options
+8 - Exit
+4
+Enter Array size:
+10
+Creating Array...
+Array of size 10 was created. Time taken: 00 min. 00 sec. 000 ms. 549000 ns.
+
+1 - Binary Search
+2 - Jump Search
+3 - Get Average steps for Binary and Jump searches of the Array
 4 - Create a new random Array
 5 - export an Array of Numbers
 6 - import an Array of numbers
@@ -24,38 +41,54 @@ Jump search average for 50000 searches is 125 steps.
 1. Print Search Steps: YES
 2. Print the numbers in the array before doing a Search: NO
 3. Jump Search with: Linear Forward
-4. Change the minimum range for Random Number
+4. Add Linear Search to Average Steps in Main Menu
+5. Change the minimum range for Random Number
        Current minimum: 0
-5. Change the max range for Random Number
-       Current max: 400000
-6. Return to Main Menu
+6. Change the max range for Random Number
+       Current max: 400,000
+7. Return to Main Menu
 2
 
 1. Print Search Steps: YES
 2. Print the numbers in the array before doing a Search: YES
 3. Jump Search with: Linear Forward
-4. Change the minimum range for Random Number
+4. Add Linear Search to Average Steps in Main Menu
+5. Change the minimum range for Random Number
        Current minimum: 0
-5. Change the max range for Random Number
-       Current max: 400000
-6. Return to Main Menu
-6
+6. Change the max range for Random Number
+       Current max: 400,000
+7. Return to Main Menu
+7
 
 1 - Binary Search
 2 - Jump Search
-3 - Get Average Search steps for Binary versus Jump for the Array
+3 - Get Average steps for Binary and Jump searches of the Array
 4 - Create a new random Array
 5 - export an Array of Numbers
 6 - import an Array of numbers
 7 - Options
 8 - Exit
-4
-Enter Array size:
-10
+1
+How many searches would you like to do?
+2
+[37210, 55397, 80719, 158621, 185165, 228812, 267616, 295549, 340160, 369950]
+What number would you like to find the Index of?
+295549
+Step 1: Checking index 4, with a value of 185,165.
+Step 2: Checking index 7, with a value of 295,549.
+Found 295,549 at index number: 7
+What number would you like to find the Index of?
+158621
+Step 1: Checking index 4, with a value of 185,165.
+Step 2: Checking index 1, with a value of 55,397.
+Step 3: Checking index 2, with a value of 80,719.
+Step 4: Checking index 3, with a value of 158,621.
+Found 158,621 at index number: 3
+Binary search average for 2 searches is 3 steps. Time taken: 00 min. 00 sec. 000 ms. 952900 ns.
 
 1 - Binary Search
 2 - Jump Search
-3 - Get Average Search steps for Binary versus Jump for the Array
+3 - Get Average steps for Binary and Jump searches of the Array
 4 - Create a new random Array
 5 - export an Array of Numbers
 6 - import an Array of numbers
@@ -64,29 +97,72 @@ Enter Array size:
 2
 How many searches would you like to do?
 2
-[37903, 80259, 144758, 229897, 265311, 271358, 281436, 301357, 323010, 394827]
+[37210, 55397, 80719, 158621, 185165, 228812, 267616, 295549, 340160, 369950]
 What number would you like to find the Index of?
-281436
+295549
 The jump length is 3
-Step 1: Checking index 0, with a value of 37903.
-Step 2: Checking index 3, with a value of 229897.
-Step 3: Checking index 6, with a value of 281436.
-Found 281436 at index number: 6
-What number would you like to find the Index of?
-271358
-The jump length is 3
-Step 1: Checking index 0, with a value of 37903.
-Step 2: Checking index 3, with a value of 229897.
-Step 3: Checking index 6, with a value of 281436.
+Step 1: Checking index 0, with a value of 37,210.
+Step 2: Checking index 3, with a value of 158,621.
+Step 3: Checking index 6, with a value of 267,616.
+Step 4: Checking index 9, with a value of 369,950.
 Searching with linear forward: from previous index searched to last index searched
-Step 4: Checking index 4, with a value of 265311.
-Step 5: Checking index 5, with a value of 271358.
-Found 271358 at index number: 5
-Jump search average for 2 searches is 4 steps.
+Step 5: Checking index 7, with a value of 295,549.
+Found 295,549 at index number: 7
+What number would you like to find the Index of?
+80719
+The jump length is 3
+Step 1: Checking index 0, with a value of 37,210.
+Step 2: Checking index 3, with a value of 158,621.
+Searching with linear forward: from previous index searched to last index searched
+Step 3: Checking index 1, with a value of 55,397.
+Step 4: Checking index 2, with a value of 80,719.
+Found 80,719 at index number: 2
+Jump search average for 2 searches is 4 steps. Time taken: 00 min. 00 sec. 001 ms. 484600 ns.
 
 1 - Binary Search
 2 - Jump Search
-3 - Get Average Search steps for Binary versus Jump for the Array
+3 - Get Average steps for Binary and Jump searches of the Array
+4 - Create a new random Array
+5 - export an Array of Numbers
+6 - import an Array of numbers
+7 - Options
+8 - Exit
+4
+Enter Array size:
+100000
+Creating Array...
+Array of size 100,000 was created. Time taken: 00 min. 00 sec. 028 ms. 6900 ns.
+
+1 - Binary Search
+2 - Jump Search
+3 - Get Average steps for Binary and Jump searches of the Array
+4 - Create a new random Array
+5 - export an Array of Numbers
+6 - import an Array of numbers
+7 - Options
+8 - Exit
+3
+Finding Averages...
+Binary search average for 100,000 searches is 15 steps. Time taken: 00 min. 00 sec. 050 ms. 61300 ns.
+Jump search average for 100,000 searches is 173 steps. Time taken: 00 min. 00 sec. 219 ms. 329300 ns.
+
+1 - Binary Search
+2 - Jump Search
+3 - Get Average steps for Binary and Jump searches of the Array
+4 - Create a new random Array
+5 - export an Array of Numbers
+6 - import an Array of numbers
+7 - Options
+8 - Exit
+5
+File name:
+numbers100K.dat
+Exporting Array to File numbers100K.dat...
+The array of numbers have been saved to the file numbers100K.dat. Time taken: 00 min. 00 sec. 777 ms. 550400 ns.
+
+1 - Binary Search
+2 - Jump Search
+3 - Get Average steps for Binary and Jump searches of the Array
 4 - Create a new random Array
 5 - export an Array of Numbers
 6 - import an Array of numbers
@@ -97,108 +173,57 @@ Jump search average for 2 searches is 4 steps.
 1. Print Search Steps: YES
 2. Print the numbers in the array before doing a Search: YES
 3. Jump Search with: Linear Forward
-4. Change the minimum range for Random Number
+4. Add Linear Search to Average Steps in Main Menu
+5. Change the minimum range for Random Number
        Current minimum: 0
-5. Change the max range for Random Number
-       Current max: 400000
-6. Return to Main Menu
-3
+6. Change the max range for Random Number
+       Current max: 400,000
+7. Return to Main Menu
+6
+Enter new max number:
+10000000
 
 1. Print Search Steps: YES
 2. Print the numbers in the array before doing a Search: YES
-3. Jump Search with: Linear Backwards
-4. Change the minimum range for Random Number
+3. Jump Search with: Linear Forward
+4. Add Linear Search to Average Steps in Main Menu
+5. Change the minimum range for Random Number
        Current minimum: 0
-5. Change the max range for Random Number
-       Current max: 400000
-6. Return to Main Menu
-6
+6. Change the max range for Random Number
+       Current max: 10,000,000
+7. Return to Main Menu
+7
 
 1 - Binary Search
 2 - Jump Search
-3 - Get Average Search steps for Binary versus Jump for the Array
+3 - Get Average steps for Binary and Jump searches of the Array
 4 - Create a new random Array
 5 - export an Array of Numbers
 6 - import an Array of numbers
 7 - Options
 8 - Exit
-2
-How many searches would you like to do?
-2
-[37903, 80259, 144758, 229897, 265311, 271358, 281436, 301357, 323010, 394827]
-What number would you like to find the Index of?
-271358
-The jump length is 3
-Step 1: Checking index 0, with a value of 37903.
-Step 2: Checking index 3, with a value of 229897.
-Step 3: Checking index 6, with a value of 281436.
-Searching with linear backwards: from last index searched to previous index searched
-Step 4: Checking index 5, with a value of 271358.
-Found 271358 at index number: 5
-What number would you like to find the Index of?
-265311
-The jump length is 3
-Step 1: Checking index 0, with a value of 37903.
-Step 2: Checking index 3, with a value of 229897.
-Step 3: Checking index 6, with a value of 281436.
-Searching with linear backwards: from last index searched to previous index searched
-Step 4: Checking index 5, with a value of 271358.
-Step 5: Checking index 4, with a value of 265311.
-Found 265311 at index number: 4
-Jump search average for 4 searches is 4 steps.
+4
+Enter Array size:
+1000000
+Creating Array...
+Array of size 1,000,000 was created. Time taken: 00 min. 00 sec. 128 ms. 359500 ns.
 
 1 - Binary Search
 2 - Jump Search
-3 - Get Average Search steps for Binary versus Jump for the Array
-4 - Create a new random Array
-5 - export an Array of Numbers
-6 - import an Array of numbers
-7 - Options
-8 - Exit
-1
-How many searches would you like to do?
-2
-[37903, 80259, 144758, 229897, 265311, 271358, 281436, 301357, 323010, 394827]
-What number would you like to find the Index of?
-265311
-Step 1: Checking index 4, with a value of 265311.
-Found 265311 at index number: 4
-What number would you like to find the Index of?
-271358
-Step 1: Checking index 4, with a value of 265311.
-Step 2: Checking index 7, with a value of 301357.
-Step 3: Checking index 5, with a value of 271358.
-Found 271358 at index number: 5
-Binary search average for 2 searches is 2 steps.
-
-1 - Binary Search
-2 - Jump Search
-3 - Get Average Search steps for Binary versus Jump for the Array
-4 - Create a new random Array
-5 - export an Array of Numbers
-6 - import an Array of numbers
-7 - Options
-8 - Exit
-6
-File name:
-numbers100K.txt
-Loaded numbers100K.txt
-
-1 - Binary Search
-2 - Jump Search
-3 - Get Average Search steps for Binary versus Jump for the Array
+3 - Get Average steps for Binary and Jump searches of the Array
 4 - Create a new random Array
 5 - export an Array of Numbers
 6 - import an Array of numbers
 7 - Options
 8 - Exit
 3
-Binary search average for 100000 searches is 15 steps.
-Jump search average for 100000 searches is 173 steps.
+Finding Averages...
+Binary search average for 1,000,000 searches is 18 steps. Time taken: 00 min. 00 sec. 438 ms. 895300 ns.
+Jump search average for 1,000,000 searches is 523 steps. Time taken: 00 min. 07 sec. 083 ms. 28900 ns.
 
 1 - Binary Search
 2 - Jump Search
-3 - Get Average Search steps for Binary versus Jump for the Array
+3 - Get Average steps for Binary and Jump searches of the Array
 4 - Create a new random Array
 5 - export an Array of Numbers
 6 - import an Array of numbers
@@ -206,12 +231,101 @@ Jump search average for 100000 searches is 173 steps.
 8 - Exit
 5
 File name:
-test.txt
-The array of numbers have been saved to the file test.txt
+numbers1Million.dat
+Exporting Array to File numbers1Million.dat...
+The array of numbers have been saved to the file numbers1Million.dat. Time taken: 00 min. 07 sec. 293 ms. 778000 ns.
 
 1 - Binary Search
 2 - Jump Search
-3 - Get Average Search steps for Binary versus Jump for the Array
+3 - Get Average steps for Binary and Jump searches of the Array
+4 - Create a new random Array
+5 - export an Array of Numbers
+6 - import an Array of numbers
+7 - Options
+8 - Exit
+4
+Enter Array size:
+10
+Creating Array...
+Array of size 10 was created. Time taken: 00 min. 00 sec. 000 ms. 19900 ns.
+
+1 - Binary Search
+2 - Jump Search
+3 - Get Average steps for Binary and Jump searches of the Array
+4 - Create a new random Array
+5 - export an Array of Numbers
+6 - import an Array of numbers
+7 - Options
+8 - Exit
+6
+File name:
+numbers1Million.dat
+Importing File numbers1Million.dat to an array...
+The file numbers1Million.dat has been imported. Time taken: 00 min. 08 sec. 339 ms. 583600 ns.
+
+1 - Binary Search
+2 - Jump Search
+3 - Get Average steps for Binary and Jump searches of the Array
+4 - Create a new random Array
+5 - export an Array of Numbers
+6 - import an Array of numbers
+7 - Options
+8 - Exit
+4
+Enter Array size:
+10000
+Creating Array...
+Array of size 10,000 was created. Time taken: 00 min. 00 sec. 000 ms. 766200 ns.
+
+1 - Binary Search
+2 - Jump Search
+3 - Get Average steps for Binary and Jump searches of the Array
+4 - Create a new random Array
+5 - export an Array of Numbers
+6 - import an Array of numbers
+7 - Options
+8 - Exit
+7
+
+1. Print Search Steps: YES
+2. Print the numbers in the array before doing a Search: YES
+3. Jump Search with: Linear Forward
+4. Add Linear Search to Average Steps in Main Menu
+5. Change the minimum range for Random Number
+       Current minimum: 0
+6. Change the max range for Random Number
+       Current max: 10,000,000
+7. Return to Main Menu
+4
+
+1. Print Search Steps: YES
+2. Print the numbers in the array before doing a Search: YES
+3. Jump Search with: Linear Forward
+4. Remove Linear Search from Average Steps in Main Menu
+5. Change the minimum range for Random Number
+       Current minimum: 0
+6. Change the max range for Random Number
+       Current max: 10,000,000
+7. Return to Main Menu
+7
+
+1 - Binary Search
+2 - Jump Search
+3 - Get Average steps for Binary, Jump, and Linear searches of the Array
+4 - Create a new random Array
+5 - export an Array of Numbers
+6 - import an Array of numbers
+7 - Options
+8 - Exit
+3
+Finding Averages...
+Binary search average for 10,000 searches is 12 steps. Time taken: 00 min. 00 sec. 002 ms. 468500 ns.
+Jump search average for 10,000 searches is 60 steps. Time taken: 00 min. 00 sec. 006 ms. 518000 ns.
+Linear search average for 10,000 searches is 5,000 steps. Time taken: 00 min. 00 sec. 449 ms. 463500 ns.
+
+1 - Binary Search
+2 - Jump Search
+3 - Get Average steps for Binary, Jump, and Linear searches of the Array
 4 - Create a new random Array
 5 - export an Array of Numbers
 6 - import an Array of numbers
