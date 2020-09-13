@@ -161,7 +161,7 @@ private fun getArray(size: Int? = null): Array<Int> {
     val rangeSize = MAX - MIN + 1
     val increment = if (arraySize <= 0) 0 else rangeSize / arraySize
     var min = MIN
-    var max = min + increment - 1
+    var max = MIN - 1
     val range = { min..max }
     val time = TrackTime()
 
@@ -172,10 +172,10 @@ private fun getArray(size: Int? = null): Array<Int> {
     }
     println("Creating Array...")
     time.start()
-    repeat(arraySize) {
+    for (i in 1..arraySize) {
+        if (i != 1 ) min = max + 1
+        max = if (i == arraySize) MAX else increment + max
         numbers.add(range().random())
-        min = max + 1
-        max += increment
     }
     time.stop()
     println("Array of size ${numberFormat(arraySize)} was created. Time taken: ${time.elapsed()}")
